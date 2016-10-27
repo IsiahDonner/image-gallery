@@ -1,0 +1,73 @@
+/*******************/
+/*      BODY        /
+/*******************/
+
+body {
+    background-color: black;
+    padding-top: 70px;
+}
+
+/*******************/
+/*      NAV         /
+/*******************/
+.navbar-inverse .navbar-brand {
+    color: orangered;
+    text-shadow: 1px 1px saddlebrown;
+}
+
+.navbar-inverse {
+	background: rgb(69,72,77);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 75%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 75%);
+    background: radial-gradient(ellipse at center, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: orangered;
+    text-shadow: 1px 1px saddlebrown;
+}
+
+.navbar-brand span { 
+    color: #45484d;
+    text-shadow: 1px 1px #454545;
+}
+
+/*******************/
+/*     HEADING      /
+/*******************/
+h1,
+h3 {
+    color: orangered;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h3 { text-shadow: 1px 1px saddlebrown; }
+
+/*******************/
+/*      ICONS       /
+/*******************/
+.fa-camera-retro {
+    color: saddlebrown;
+    text-shadow: 2px 2px orangered;
+}
+
+/*******************/
+/* JUMBOTRON COLOR  /
+/*******************/
+.red-gloss {
+    background: #feccb1;
+    background: -moz-linear-gradient(left, #feccb1 0%, #fb955e 40%);
+    background: -webkit-linear-gradient(left, #feccb1 0%, #fb955e 40%);
+    background: linear-gradient(to right, #feccb1 0%, #fb955e 40%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e', GradientType=1);
+}
+
+/*******************/
+/*      SPAN        /
+/*******************/
+.tig-text {
+	color: orangered;
+    text-shadow: 2px 2px saddlebrown;
+}
